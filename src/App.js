@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class App extends Component {
+class App2 extends Component {
   render() {
 //    const greeting = "Hi!!"
 //    const dom = <input type="text" onChange={ ()=> {console.log("I am foo!")}} />
@@ -11,6 +11,18 @@ class App extends Component {
       </React.Fragment>
     );
   }
+}
+
+const App = () => {
+  return <div>
+    <Cat/>
+    <Cat/>
+    <Cat/>
+  </div>
+}
+
+const Cat = () => {
+  return <div>ミャー</div>
 }
 
 export default App;
